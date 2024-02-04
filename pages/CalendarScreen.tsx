@@ -1,7 +1,8 @@
 import { Text, View } from "react-native";
+import { Calendar } from 'react-native-calendars';
 
 function CalendarScreen() {
-    return <View><Text>Calendar</Text></View>
+    return <View><Calendar /></View>
 }
 
 export default CalendarScreen;
